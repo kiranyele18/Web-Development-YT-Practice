@@ -1,0 +1,28 @@
+What is form?
+-->To collect user input
+
+Tags:
+
+<form>: to create html form for user input
+
+<input>: many forms to get input form
+
+<label>: text field gives label to ur id like name,email,password
+
+input tag 'id= " "'attribute is same for label tag 'for= " "'attribute
+
+type="text" or "radio" or "checkbox" or "date" or "submit,etc
+
+for attribute is used in label for identifing them
+id aattribute is used in input for unique identification
+
+placeholder attribute for highligher on input field
+
+form elements:
+    input
+    label
+    select
+    option button
+
+    textArea
+    fieldset and legend
