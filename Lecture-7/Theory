@@ -1,0 +1,11 @@
+table tag:
+
+thead(table header):to create heading of table
+
+th(table header):to create header of table
+
+td(table data): to create cell/data
+
+tfoot(table foot):e.g summerization
+
+tr(table row):to create row

@@ -1,0 +1,28 @@
+Use Emmet extension
+1 Que)p>img ==> paragraph ke andar img tag
+1 Ans)
+<p>
+    <img src="" alt="">
+</p>
+
+2) two tags together
+2 Ans) article+section
+<article></article>
+<section></section>
+
+3) <!--  tags with content-->
+    <!-- p{this is my first paragraph} -->
+    <p>this is my first paragraph</p>
+id attribute:
+identifies different id or unique id 
+
+
+div tag ==> no meaning
+-->division creation
+-->use of container or wrapping data
+
+
+Two types of element 
+1. Block 
+2. Inline
+
