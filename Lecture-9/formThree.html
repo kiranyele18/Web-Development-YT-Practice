@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERN stack Practice Lecture 9-Form 3</title>
+</head>
+<body>
+    <h2>Complex Form</h2>
+    <form>
+        <!-- Personal Information -->
+        <fieldset>
+            <legend>Personal Information</legend>
+            <!-- name -->
+            <label for="name">Name</label>
+            <input type="text" name="name" id = "name">
+            <!-- email -->
+            <label for="email">Email</label>
+            <input type="email" name="email" id = "email">
+            <!-- phone -->
+            <label for="tel">Phone</label>
+            <input type="tel" name="tel" id = "tel">
+            <!-- DOB -->
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dob" id = "dob">
+            <!-- Gender -->
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <!-- Country -->
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="us">United States</option>
+                <option value="in">India</option>
+                <option value="rus">Russia</option>
+                <option value="jn">Japan</option>
+                <option value="ch">China</option>
+            </select>
+        </fieldset>
+
+        <!-- Address -->
+        <fieldset>
+            <legend>Address</legend>
+            <!-- street -->
+            <label for="street">Street</label>
+            <input type="text" name="street" id="street">
+            <!-- city -->
+            <label for="city">City</label>
+            <input type="text" name="city" id="city">
+            <!-- state -->
+            <label for="state">State</label>
+            <input type="text" name="state" id="state">
+            <!-- zipcode -->
+            <label for="zipcode">zipcode</label>
+            <input type="text" name="zipcode" id="zipcode">
+        </fieldset>
+
+        <!-- Other Information -->
+        <fieldset>
+            <legend>Other Information</legend>
+            <label for="comment">Comments</label>
+            <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+            <label for="services">I agree to the terms of services</label>
+            <input type="checkbox" name="services" id="services">
+        </fieldset>
+        <input type="submit" name="submit" id="submit">
+    </form> 
+</body>
+</html>
