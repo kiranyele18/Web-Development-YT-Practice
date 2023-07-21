@@ -1,0 +1,19 @@
+CSS: Cascading Style Sheets
+
+*** What is CSS?
+-->Used to provide Styling.
+
+*** 3 different types of CSS
+a. Inline
+b. Internal
+c. External
+
+#^** when you want to override inline styling then "!important" keyword is used in Internal styling.
+
+#^** Ordering in css types is dependent.
+
+$ Selectors:
+    element: tags - p ,h1 ,article, section,etc
+    id: use #id_name
+    class: use .classname
+    group: multiple tags used by comma ,
